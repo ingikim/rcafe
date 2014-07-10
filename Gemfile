@@ -28,7 +28,13 @@ gem 'spring',        group: :development
 
 gem 'bootstrap-sass', '~> 3.1.1'
 gem 'simple_form'
+gem 'friendly_id', '~> 5.0.0'
+gem 'carrierwave'
+gem 'mini_magick'
+gem 'acts-as-taggable-on'
 
+gem 'pg', group: :production
+gem 'rails_12factor', group: :production
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
